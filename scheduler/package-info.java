@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.mysite.core.services.impl;
+package com.mysite.core.models;
 
 import org.osgi.annotation.versioning.Version;
