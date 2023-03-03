@@ -1,0 +1,18 @@
+<sly data-sly-use.model="com.pwc.madison.core.models.BackendDataListModel">
+    <div class="cq-placeholder" data-sly-test="${(wcmmode.edit || wcmmode.design) && !title}"
+         data-emptytext="Configure ${component.title} Component"></div>
+
+    <h1>${model.tags}</h1>
+
+    <div data-sly-list.secondary="${model.pageList}" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <h1>${secondary.title}</h1>
+            <p>${secondary.desc}</p>
+            <a href="${secondary.link}">continue reading</a>
+            <img src="${secondary.image}" alt="Thumbnail here" style="width: 200px; height: 250px;">
+
+
+    </div>
+</sly>
+
+
+
